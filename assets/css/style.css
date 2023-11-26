@@ -1,0 +1,940 @@
+/* line 1, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+*,
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* line 8, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+p {
+  margin-bottom: 0;
+}
+
+/* line 10, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+/* line 13, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+a,
+a:hover,
+a:active,
+a:focus,
+a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+/* line 21, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.h-vh {
+  height: 100dvh;
+}
+
+/* line 25, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+/* line 29, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+ul {
+  list-style: none;
+}
+
+/* line 33, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.header__block {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* line 36, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.header__menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+  margin-bottom: 0;
+}
+
+/* line 43, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.carousel-item {
+  max-height: 100dvh;
+}
+
+/* line 46, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.main_for_header {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 1000;
+  height: 80px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+/* line 57, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.div_for_center {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* line 61, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.main {
+  margin-top: 107px;
+}
+
+/* line 63, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.main__h {
+  color: #111;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 63.488px;
+  font-weight: 700;
+  line-height: 69.837px;
+  margin-bottom: 32px;
+}
+
+/* line 70, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.main__text {
+  width: 500px;
+  color: #111;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13.96px;
+  font-weight: 400;
+  line-height: 27.919px;
+  margin-bottom: 54px;
+}
+
+/* line 78, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.main__flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* line 82, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.main__tel {
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 46px;
+}
+
+/* line 87, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.main__info_tel {
+  color: #111;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 57.6px;
+  /* 160% */
+  letter-spacing: 1px;
+}
+
+/* line 95, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.product {
+  width: 100%;
+  height: 157px;
+  background: #56AC78;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* line 102, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.product__my {
+  color: #FFF;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 33px;
+}
+
+/* line 109, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.products {
+  background: url("../img/bg-main.png") lightgray 50%/cover no-repeat;
+}
+
+/* line 111, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.products__button {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* line 114, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.products__top_text {
+  position: relative;
+  top: 25px;
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* line 120, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.products__mains {
+  content: "";
+  background: rgba(255, 255, 255, 0.7);
+}
+
+/* line 123, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.products__main {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 170px;
+  align-items: stretch;
+}
+
+/* line 128, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.products__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 40px 0;
+}
+
+/* line 133, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.products__h {
+  color: #56AC78;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 13.04px;
+  margin-bottom: 20px;
+}
+
+/* line 141, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.products__image {
+  margin: 0 auto;
+}
+
+/* line 143, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.products__image_p {
+  width: 130px;
+  height: 77px;
+  border-radius: 10px;
+  border: 1px solid #56AC78;
+}
+
+/* line 148, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.products__line {
+  content: "";
+  width: 1px;
+  height: 48px;
+  background: #56AC78;
+  margin: 0 auto;
+  transform: translateX(-50%);
+  margin-bottom: 40px;
+}
+
+/* line 156, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.products__blocks {
+  margin-bottom: 50px;
+}
+
+/* line 158, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.products__blocks_img {
+  width: 287px;
+  height: 287px;
+  border-radius: 311px;
+  border: 12px solid #56AC78;
+  overflow: hidden;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  margin: 0 auto;
+}
+
+/* line 167, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.products__blocks_img:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+/* line 171, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.products__blocks_text {
+  color: #111;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13.977px;
+  font-weight: 500;
+  line-height: 25px;
+  margin-top: 35px;
+  text-align: center;
+}
+
+/* line 179, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.products__blocks_black {
+  color: #111;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13.977px;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+/* line 187, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.image_one {
+  background: url("../img/products/product-one.png"), 50%/cover no-repeat;
+}
+
+/* line 189, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.image_one:hover {
+  background: url("../img/products/product-two.png"), 50%/cover no-repeat;
+}
+
+/* line 192, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.image_two {
+  background: url("../img/products/product-two.png"), 50%/cover no-repeat;
+}
+
+/* line 195, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.image_two:hover {
+  background: url("../img/products/product-six.png"), 50%/cover no-repeat;
+}
+
+/* line 198, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.image_three {
+  background: url("../img/products/product-three.png"), 50%/cover no-repeat;
+}
+
+/* line 201, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.image_three:hover {
+  background: url("../img/products/product-two.png"), 50%/cover no-repeat;
+}
+
+/* line 204, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.image_four {
+  background: url("../img/products/product-four.png"), 50%/cover no-repeat;
+}
+
+/* line 207, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.image_four:hover {
+  background: url("../img/products/product-two.png"), 50%/cover no-repeat;
+}
+
+/* line 210, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.image_five {
+  background: url("../img/products/product-five.png"), 50%/cover no-repeat;
+}
+
+/* line 213, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.image_five:hover {
+  background: url("../img/products/product-two.png"), 50%/cover no-repeat;
+}
+
+/* line 216, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.image_six {
+  background: url("../img/products/product-six.png"), 50%/cover no-repeat;
+}
+
+/* line 218, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.image_six:hover {
+  background: url("../img/products/product-two.png"), 50%/cover no-repeat;
+}
+
+/* line 221, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.about {
+  background-color: #56AC78;
+}
+
+/* line 223, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.about__us {
+  color: #FFF;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 33px;
+  padding: 60px 0 100px 0;
+}
+
+/* line 231, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.about__box {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 80px;
+}
+
+/* line 235, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.about__box_line {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* line 238, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.about__box_line_one {
+  width: 483px;
+}
+
+/* line 240, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.about__box_line_title {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 31.16px;
+  margin: 40px 0 30px 0;
+}
+
+/* line 247, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.about__box_line_text {
+  color: #FFF;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 31.16px;
+  /* 163.998% */
+  margin-bottom: 50px;
+}
+
+/* line 256, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.process__block {
+  padding-bottom: 100px;
+}
+
+/* line 258, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.process__title {
+  color: #000;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 33px;
+  margin: 15px 0 40px 0;
+}
+
+/* line 266, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.process__box {
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+/* line 272, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.footer__boxs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+/* line 277, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.footer__box {
+  width: 400px;
+}
+
+/* line 279, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.footer__contact {
+  color: #212529;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  padding-bottom: 17px;
+}
+
+/* line 286, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.footer__phone {
+  color: #212529;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22.5px;
+}
+
+/* line 292, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.footer__social {
+  padding-left: 15px;
+}
+
+/* line 294, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.footer__email {
+  color: #212529;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  padding: 9px 0;
+}
+
+/* line 301, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.footer__text {
+  color: #212529;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* line 306, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.footer__line {
+  content: "";
+  width: 1.7px;
+  height: 160px;
+  background: #000;
+  border-radius: 60px;
+}
+
+/* line 312, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.footer__title {
+  color: #212529;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  padding-bottom: 25px;
+}
+
+/* line 319, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.footer__subtitle {
+  color: #212529;
+  font-family: 'Montserrat', sans-serif;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-bottom: 25px;
+}
+
+/* line 327, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.footer__prava {
+  color: #212529;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+/* line 334, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.pageup {
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  width: 40px;
+  height: 40px;
+}
+
+/* line 341, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+.pageup img {
+  width: 100%;
+}
+
+@media screen and (max-width: 1200px) {
+  /* line 345, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .process__box {
+    margin-bottom: 20px;
+  }
+  /* line 348, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .about__us {
+    font-size: 20px;
+    line-height: 23px;
+    padding: 40px 0 80px 0;
+  }
+  /* line 352, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .about__box {
+    padding-bottom: 60px;
+  }
+  /* line 355, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .about__box_line_one {
+    width: 370px;
+  }
+  /* line 357, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .about__box_line_title {
+    font-size: 17px;
+    line-height: 21.16px;
+    margin: 30px 0 20px 0;
+  }
+  /* line 361, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .about__box_line_text {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21.16px;
+    /* 163.998% */
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  /* line 368, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .main__logo img {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  /* line 372, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .header__menu {
+    width: 60%;
+  }
+  /* line 374, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .main__h {
+    font-size: 43.488px;
+    font-weight: 700;
+    line-height: 39.837px;
+    margin-bottom: 22px;
+  }
+  /* line 379, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .main__text {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 17.919px;
+    margin-bottom: 34px;
+    width: 90%;
+  }
+  /* line 385, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .main__logo img {
+    width: 300px;
+  }
+  /* line 387, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .main__tel {
+    display: flex;
+    justify-content: flex-start;
+  }
+  /* line 390, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .main__tel_photo {
+    width: 25px;
+  }
+  /* line 392, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .main__info_tel {
+    font-size: 15px;
+    line-height: 37.6px;
+  }
+  /* line 395, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .footer__title {
+    font-size: 17px;
+    line-height: 26px;
+    padding-bottom: 20px;
+  }
+  /* line 399, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .footer__subtitle {
+    font-size: 10px;
+    line-height: 14px;
+    padding-bottom: 20px;
+  }
+  /* line 403, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .footer__prava {
+    color: #212529;
+    font-size: 10px;
+    line-height: 14px;
+  }
+  /* line 407, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .footer__contact {
+    font-size: 14px;
+    line-height: 26px;
+    padding-bottom: 10px;
+  }
+  /* line 411, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .footer__phone {
+    font-size: 10px;
+    line-height: 12.5px;
+  }
+  /* line 414, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .footer__social {
+    padding-left: 10px;
+    width: 25px;
+  }
+  /* line 417, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .footer__email {
+    font-size: 10px;
+    line-height: 14px;
+    padding: 7px 0;
+  }
+  /* line 421, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .footer__text {
+    font-size: 10px;
+  }
+  /* line 423, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .footer__line {
+    content: "";
+    width: 1px;
+    height: 120px;
+    background: #000;
+    border-radius: 60px;
+  }
+  /* line 429, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .footer__box {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  /* line 432, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .main_for_header {
+    height: 60px;
+  }
+  /* line 434, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .header__logo {
+    width: 40px;
+  }
+  /* line 436, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .header__navigation {
+    font-size: 12px;
+  }
+  /* line 438, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .carousel-indicators [data-bs-target] {
+    width: 20px;
+    height: 3px;
+  }
+  /* line 441, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  /* line 444, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .main__h {
+    font-size: 23.488px;
+    font-weight: 700;
+    line-height: 19.837px;
+    margin-bottom: 8px;
+  }
+  /* line 449, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .main__logo img {
+    display: none;
+  }
+  /* line 451, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .main {
+    margin-top: 57px;
+  }
+  /* line 453, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .main__tel_photo {
+    width: 17px;
+  }
+  /* line 455, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .product {
+    height: 78px;
+  }
+  /* line 457, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .product__my {
+    font-size: 20px;
+  }
+  /* line 459, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .products__h {
+    font-size: 10px;
+    line-height: 0;
+  }
+  /* line 462, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .products__image_p {
+    width: 100px;
+    height: 60px;
+  }
+  /* line 465, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .products__header {
+    margin: 25px 0;
+  }
+  /* line 467, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .products__line {
+    height: 25px;
+    margin-bottom: 25px;
+  }
+  /* line 470, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .products__blocks {
+    margin-bottom: 20px;
+  }
+  /* line 472, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .products__blocks_img {
+    width: 130px;
+    height: 130px;
+    border: 7px solid #56AC78;
+  }
+  /* line 476, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .products__blocks_text {
+    font-size: 7px;
+    line-height: 14px;
+    margin-top: 7px;
+  }
+  /* line 480, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .products__blocks_black {
+    font-size: 10px;
+    line-height: 8px;
+  }
+  /* line 483, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .image_one {
+    background: url(../img/products/product-oneS.png), 50%/cover no-repeat;
+  }
+  /* line 485, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .image_one:hover {
+    background: url("../img/products/product-twoS.png"), 50%/cover no-repeat;
+  }
+  /* line 488, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .image_two {
+    background: url("../img/products/product-twoS.png"), 50%/cover no-repeat;
+  }
+  /* line 491, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .image_two:hover {
+    background: url("../img/products/product-oneS.png"), 50%/cover no-repeat;
+  }
+  /* line 494, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .image_three {
+    background: url("../img/products/product-threeS.png"), 50%/cover no-repeat;
+  }
+  /* line 497, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .image_three:hover {
+    background: url("../img/products/product-two.png"), 50%/cover no-repeat;
+  }
+  /* line 500, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .image_four {
+    background: url("../img/products/product-four.png"), 50%/cover no-repeat;
+  }
+  /* line 503, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .image_four:hover {
+    background: url("../img/products/product-two.png"), 50%/cover no-repeat;
+  }
+  /* line 506, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .image_five {
+    background: url("../img/products/product-five.png"), 50%/cover no-repeat;
+  }
+  /* line 509, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .image_five:hover {
+    background: url("../img/products/product-two.png"), 50%/cover no-repeat;
+  }
+  /* line 512, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .image_six {
+    background: url("../img/products/product-six.png"), 50%/cover no-repeat;
+  }
+  /* line 514, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .image_six:hover {
+    background: url("../img/products/product-two.png"), 50%/cover no-repeat;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  /* line 523, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .header__menu {
+    width: 100%;
+  }
+  /* line 525, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .footer__boxs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  /* line 529, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .footer__box {
+    width: 80%;
+  }
+  /* line 531, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .footer__line {
+    margin: 13px 0;
+    width: 250px;
+    height: 1px;
+  }
+  /* line 535, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .process__title {
+    font-size: 20px;
+    line-height: 20px;
+    margin: 30px 0 25px 0;
+  }
+  /* line 539, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .process__box_img {
+    width: 125px;
+    height: 85px;
+  }
+  /* line 542, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .about__us {
+    font-size: 12px;
+    padding: 30px 0;
+  }
+  /* line 545, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .about__box_line_icon img {
+    width: 22px;
+    height: 19px;
+  }
+  /* line 548, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .about__box_line_icon {
+    display: flex;
+    justify-content: center;
+  }
+  /* line 551, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .about__box_line_title {
+    font-size: 11px;
+    margin: 10px 0 7px 0;
+  }
+  /* line 554, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .about__box_line_text {
+    font-size: 9px;
+    line-height: 15px;
+  }
+  /* line 557, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .about__box_line_one {
+    width: 85%;
+  }
+  /* line 559, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .products__p {
+    transform: translateX(-200%);
+    transition: 0.5s all;
+  }
+  /* line 562, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .products__p_active {
+    transform: translateX(0%);
+    transition: 0.5s all;
+  }
+  /* line 567, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .products__image_active {
+    background-color: green;
+    border-radius: 10px;
+    border: none;
+  }
+  /* line 571, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .products__s {
+    position: absolute;
+    left: 130px;
+  }
+  /* line 574, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .process__block {
+    padding-bottom: 40px;
+  }
+  /* line 576, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .main__flex {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  /* line 580, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .main__tel {
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  /* line 583, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .products__s {
+    position: absolute;
+    left: 116px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  /* line 587, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .header__navigation {
+    font-size: 10px;
+  }
+  /* line 589, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 3px;
+  }
+  /* line 592, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .product__my {
+    font-size: 15px;
+  }
+  /* line 594, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .products__s {
+    position: absolute;
+    left: 95px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  /* line 598, ../../Telegram Desktop/dastansite/dastansite/assets/sass/style.sass */
+  .products__s {
+    position: absolute;
+    left: 70px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
